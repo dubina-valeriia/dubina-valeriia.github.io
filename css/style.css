@@ -319,7 +319,7 @@ a{
    .header__icons{
       display: flex;
       justify-content: space-around;
-      
+      opacity: 1;
    }
    .header__icons__item, .header__burger{
       width: 50px;
@@ -364,6 +364,7 @@ a{
    .header__icons{
       width: 100%;
       box-shadow: 0 3px 7px grey;
+      opacity: 1;
    }
    .header__icons__item, .header__burger{
       width: 40px;
@@ -458,6 +459,7 @@ a{
    .header__icons{
       width: 100%;
       box-shadow: 0 3px 7px grey;
+      opacity: 1;
    }
    .header__icons__item, .header__burger{
       width: 30px;
