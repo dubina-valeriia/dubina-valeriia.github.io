@@ -293,94 +293,18 @@ a{
    background-image: url("/img/after.png") ;
 }
 @media (min-width:1020px){
-   .page{
-      font-size: 30px;
-   }
-   .container__link_item{
-      font-size: 30px;
-   }
-   .container__button{
-      display: inline-block;
-      text-align: center;
-      width: 410px;
-      font-size: 30px;
-      height: 50px;
-      padding: 13px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: 700;
-      color: #00B7EC;
-      border: 2px solid #00B7EC;
-      background-color: white;
-      margin: -20px 25px 3px 3px ;
-   }
-   .welcome__wrapper{
-      max-width: 1400px;
-   }
-   .main__title{
-      font-size: 68px;
-   }
-   .main__text{
-      font-size: 30px;
-   }
-   .main__buttons{
-      min-width: 1150px;
-      display: flex;
-      justify-content: space-around;
-      margin: 50px auto;
-   
-   }
-   .main__buttons-why, .main__about__buttons-more, .main__about__buttons-sign{
-      width: 500px;
-      display: inline-block;
-      margin-right: 40px;
-   }
-   
-   .main__buttons-sign{
-      width: 500px;
-      display: inline-block;
-      margin-left: 40px;
-   }
-   .main__about__title, .main__boost__title, .main__student__title,.main__questions__title{
-      font-size: 50px;
-   }
-   .main__about__buttons{
-      text-align: center;
-      margin-top: -20px;
-   }
-   .about__img__style{
-      width: 600px;
-   }
-   
-   .main__boost__video__img{
-      width: 600px;
-      margin-top: -100px;
-      padding-left: 200px;
-   }
+
    
    .student__wrapper{
       min-width: 800px;
       margin: 0 auto;
-   }
-   .main__student__button{
-      width: 500px;
-      display: inline-block;
    }
    .main__questions__img{
       margin-left: auto;
       margin-right: 200px;
       margin-top: 40px;
    }
-   .main__questions__img__style{
-      width: 500px;
 
-   }
-   .main__questions__list{
-      margin-top: -250px;
-   }
-   .sublist{
-      line-height: 35px;
-   }
 }
 @media (max-width:992px){
    .page{
