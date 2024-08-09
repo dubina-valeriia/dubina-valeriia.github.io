@@ -356,7 +356,10 @@ a{
 }
 @media (max-width:767px){
    .page{
-      max-width: 700px;
+      max-width: 650px;
+   }
+   .container{
+      display: none;
    }
    .header__icons{
       width: 100%;
@@ -366,7 +369,7 @@ a{
       width: 40px;
    }
    .welcome__wrapper{
-      max-width: 700px;
+      max-width: 350px;
       margin: 100px auto;
       display: inline-block;
    }
@@ -394,7 +397,6 @@ a{
       display: inline-block;
    }
    .main__about__buttons{
-      margin: 0 auto;
       flex-direction: column;
       text-align: center;
    }
@@ -418,17 +420,20 @@ a{
       padding-left: 10px;
    }
    .main__boost__video__img{
-      width: 500px;
+      width: 300px;
       padding: 10px;
    }
    .student__wrapper{
-      max-width: 500px;
+      max-width: 350px;
    }
    .main__student__title{
       font-weight: 300;
    }
+   .main__questions__img{
+      display: none;
+   }
    .main__student__button{
-      width: 300px;
+      width: 200px;
       padding: 20px;
       display: inline-block;
       margin-bottom: 20px;
