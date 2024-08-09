@@ -1,0 +1,306 @@
+.page{
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   padding: 0;
+   margin: 0;
+   
+}
+.header{
+   
+}
+.container{
+   width: 100%;
+   height: 75px;
+   background-color: #00B7EC;
+   position: relative;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 34px;
+   padding-left: 10px;
+
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   box-shadow: 0 5px 10px grey;
+   z-index: 1;
+}
+
+.logo{
+   margin-top: -24px;
+}
+
+.container__link_item {
+   position: relative;
+   text-decoration: none;
+   color: white;
+   display: inline-block;
+}
+.container__link_item:hover{
+   text-decoration: underline;
+   transition: 0.25s ease-in-out;
+}
+.container__button{
+   width: 320px;
+   height: 50px;
+   padding: 12px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-weight: 700;
+   color: #00B7EC;
+   border: 1px solid #00B7EC;
+   background-color: white;
+   margin-right: 20px;
+}
+.container__button:hover{
+   color: #1998D5;
+   border: 1px solid #1998D5;
+   transition: 0.25s ease-in-out;
+}
+
+
+.main{
+   position: relative;
+   color: white;
+   text-align: center;
+}
+.main__welcome{
+   width: 100%;
+   background-image: url("/img/welcome.png");
+   background-size: cover;
+}
+.welcome__wrapper{
+   width: 800px;
+   margin: 100px auto;
+   display: inline-block;
+}
+.main__title{
+   font-size: 64px;
+   font-weight: 700;
+   position: relative;
+}
+.main__text{
+   font-weight: 400;
+   font-size: 25px;
+}
+.main__buttons{
+   width: 565px;
+   display: flex;
+   justify-content: space-around;
+   margin: 50px auto;
+
+}
+.main__buttons-why{
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   background-color: #9BCC37;
+   padding: 12px 27px;
+   border-radius: 5px;
+}
+.main__buttons-why:hover{
+   background-color: #77BA04;
+   transition: 0.25s ease-in-out;
+}
+.main__buttons-sign{
+   text-decoration: none;
+   color: #9BCC37;
+   font-weight: 700;
+   background-color: white;
+   padding: 12px 27px;
+   border-radius: 5px;
+}
+.main__buttons-sign:hover{
+   color: #77BA04;
+   transition: 0.25s ease-in-out;
+}
+.main__about{
+   text-align: left;
+   padding: 10px;
+}
+.main__about__title{
+   color: #00B7EC;
+   font-size: 36px;
+   font-weight: 300;
+}
+.wrapper{
+   display: flex;
+}
+.main__about_img{
+   margin-top: -60px;
+   margin-left: 110px;
+   padding-right: 20px;
+}
+.main__about__text{
+   color: #666666;
+   font-weight: 400;
+}
+.main__about__buttons{
+   margin-top: -40px;
+   margin-bottom: 64px;
+   width: 565px;
+   display: flex;
+   justify-content: space-between;
+}
+.main__about__buttons-more{
+   width: 225px;
+   height: 50px;
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   background-color: #00B7EC;
+   padding: 12px 27px;
+   border-radius: 5px;
+}
+.main__about__buttons-more:hover{
+   background-color: #1998D5;
+   transition: 0.25s ease-in-out;
+}
+.main__about__buttons-sign{
+   width: 320px;
+   height: 50px;
+   text-decoration: none;
+   color: #00B7EC;
+   font-weight: 700;
+   background-color: white;
+   border:#00B7EC 1px solid ;
+   padding: 12px 27px;
+   border-radius: 5px;
+}
+.main__about__buttons-sign:hover{
+   color: #1998D5;
+   border: #1998D5 1px solid;
+   transition: 0.25s ease-in-out;
+}
+.main__boost{
+   height: 500px;
+   background-image: url("/img/gradient.png");
+   background-size: cover;
+}
+.main__boost__title{
+   padding-top: 31px;
+   color: #00B7EC;
+   font-size: 36px;
+   font-weight: 300;
+}
+.main__boost__text{
+   padding-left: 48px;
+   margin-top: -10px;
+   color: #666666;
+   font-weight: 400;
+   text-align: left;
+
+}
+.boost__wrapper{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 0px;
+}
+.main__boost__video__img{
+   padding: 0 100px;
+}
+.main__student{
+   width: 100%;
+   height: 350px;
+   background-image: url("/img/practice.png");
+   background-size: cover;
+   padding-top: 100px;
+}
+.student__wrapper{
+   width: 600px;
+   margin: auto auto;
+}
+.main__student__title{
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 50px;
+}
+.main__student__button{
+   width: 300px;
+   text-decoration: none;
+   color: white;
+   font-weight: 700;
+   background-color: #9BCC37;
+   padding: 10px 80px;
+   border-radius: 5px;
+}
+.main__student__button:hover{
+   background-color: #77BA04;
+   transition: 0.25s ease-in-out;
+}
+.main__questions{
+   min-height: 800px;
+   max-height: auto;
+   background-image: url("/img/gradient.png");
+   background-size: cover;
+   text-align: left;
+   color: #666666;
+}
+.main__questions__title{
+   color: #14AFE8;
+   font-weight: 700;
+   font-size: 26px;
+
+   padding-left: 13px;
+}
+.main__questions__img{
+   width: 378px;
+   margin-left: auto;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+.question__wrapper{
+   padding-top: 40px;
+   display: flex;
+}
+.main__questions__list{
+   margin-top: -250px;
+}
+.main__questions__item{
+   list-style: none;
+   color: #666666;
+   background-image: url("/img/before.png") ;
+   background-repeat: no-repeat;
+   line-height: 20px;
+   margin-bottom: 25px;
+   padding: 0px 0px 4px 40px;
+}
+a{
+   color: #666666;
+}
+.sublist{
+   width: 800px;   
+   line-height: 24px;
+   display: none;
+}
+.sublist p{
+   margin-left: -40px;
+}
+.sublist li{
+   list-style-type: disc;
+   margin-bottom: 15px;
+   margin-left: 10px;
+
+}
+.main__questions__item:hover > .sublist{
+   display: block;
+}
+.main__questions__item:hover > a{
+   color: #00B7EC;
+}
+.main__questions__item:hover{
+   background-image: url("/img/after.png") ;
+}
+@media (min-width:1200px){
+
+}
+@media (min-width:992px){
+   
+}
+@media (min-width:768px){
+   
+}
+@media (min-width:320px){
+
+}
