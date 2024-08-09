@@ -366,9 +366,13 @@ a{
    .header__icons{
       display: flex;
       justify-content: space-around;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
       width: 100%;
       box-shadow: 0 3px 7px grey;
-      opacity: 1;
+      z-index: 1;
       background-color: white;
    }
    .header__icons__item, .header__burger{
@@ -388,7 +392,6 @@ a{
       font-size: 20px;
    }
    .main__buttons, .main__about__buttons{
-
       max-width: 290px;
       font-size: 20px;
       flex-direction: column;
