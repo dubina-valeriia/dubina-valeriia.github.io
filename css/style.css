@@ -328,7 +328,7 @@ a{
       padding-top: 20px;
    }
    .header__burger{
-      padding-top: 30px;
+      padding-top: 27px;
    }
 
    .welcome__wrapper{
@@ -376,7 +376,11 @@ a{
       background-color: white;
    }
    .header__icons__item, .header__burger{
-      width: 40px;
+      width: 36px;
+      padding-top: 20px;
+   }
+   .header__burger{
+      padding-top: 26px;
    }
    .welcome__wrapper{
       max-width: 350px;
@@ -450,6 +454,9 @@ a{
    }
    .main__questions__title{
       padding-left: 30px;
+   }
+   .sublist{
+      max-width: 330px;
    }
    .main__questions__img__style{
       display: none;
