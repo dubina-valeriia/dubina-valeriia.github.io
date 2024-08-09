@@ -319,6 +319,8 @@ a{
    .header__icons{
       display: flex;
       justify-content: space-around;
+      width: 100%;
+      box-shadow: 0 3px 7px grey;
       opacity: 1;
    }
    .header__icons__item, .header__burger{
@@ -362,9 +364,12 @@ a{
       display: none;
    }
    .header__icons{
+      display: flex;
+      justify-content: space-around;
       width: 100%;
       box-shadow: 0 3px 7px grey;
       opacity: 1;
+      background-color: white;
    }
    .header__icons__item, .header__burger{
       width: 40px;
