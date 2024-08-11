@@ -137,7 +137,7 @@
    font-weight: 400;
 }
 .main__about__buttons{
-   margin-top: -40px;
+   margin-top: 20px;
    margin-bottom: 64px;
    width: 565px;
    display: flex;
@@ -301,9 +301,13 @@ a{
    }
    .main__questions__img{
       margin-left: auto;
-      margin-right: 200px;
+      margin-right: 10px;
       margin-top: 40px;
    }
+   .sublist{
+      max-width: 550px;
+   }
+
 
 }
 @media (max-width:992px){
@@ -331,6 +335,9 @@ a{
       padding-top: 27px;
    }
 
+   .sublist{
+      max-width: 330px;
+   }
    .welcome__wrapper{
       max-width: 700px;
    }
