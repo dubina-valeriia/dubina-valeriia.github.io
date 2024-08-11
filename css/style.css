@@ -382,11 +382,11 @@ a{
       background-color: white;
    }
    .header__icons__item, .header__burger{
-      width: 36px;
-      padding-top: 20px;
+      width: 30px;
+      padding-top: 27px;
    }
    .header__burger{
-      padding-top: 26px;
+      padding-top: 30px;
    }
    .welcome__wrapper{
       max-width: 350px;
