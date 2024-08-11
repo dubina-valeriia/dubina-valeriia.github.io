@@ -137,7 +137,7 @@
    font-weight: 400;
 }
 .main__about__buttons{
-   margin-top: 20px;
+   margin-top: -80px;
    margin-bottom: 64px;
    width: 565px;
    display: flex;
@@ -301,11 +301,10 @@ a{
    }
    .main__questions__img{
       margin-left: auto;
-      margin-right: 10px;
       margin-top: 40px;
    }
    .sublist{
-      max-width: 550px;
+      min-width: 800px;
    }
 
 
@@ -463,7 +462,7 @@ a{
       padding-left: 30px;
    }
    .sublist{
-      max-width: 330px;
+      max-width: 290px;
    }
    .main__questions__img__style{
       display: none;
