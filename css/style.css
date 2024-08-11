@@ -424,7 +424,7 @@ a{
       height: 30px;
       display: inline-block;
       margin-bottom: 20px;
-
+      margin-top: 30px;
    }
    .main__about__buttons-sign{
       width: 300px;
@@ -462,7 +462,7 @@ a{
       padding-left: 30px;
    }
    .sublist{
-      max-width: 290px;
+      max-width: 250px;
    }
    .main__questions__img__style{
       display: none;
