@@ -138,7 +138,7 @@
    font-weight: 400;
 }
 .main__about__buttons{
-   margin-top: -80px;
+   margin-top: 50px;
    margin-bottom: 64px;
    width: 565px;
    display: flex;
@@ -307,9 +307,11 @@ a{
    .sublist{
       min-width: 800px;
    }
-   .main__about__buttons{
-      margin-top: 20px;
+   .main__about{
+      max-width: 1000px;
+      margin: 0 auto;
    }
+
 
 }
 @media (max-width:992px){
@@ -369,9 +371,6 @@ a{
    }
    .main__boost{
       height: auto;
-   }
-   .main__about__buttons{
-      padding-top: 50px;
    }
    .boost__wrapper{
       flex-direction: column;
@@ -459,7 +458,7 @@ a{
       height: 30px;
       display: inline-block;
       margin-bottom: 20px;
-      margin-top: 30px;
+
    }
    .main__about__buttons-sign{
       width: 300px;
