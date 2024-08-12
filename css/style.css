@@ -494,7 +494,7 @@ a{
       margin: 0;
    }
    .sublist{
-      max-width: 230px;
+      width: 250px;
    }
 
 }
