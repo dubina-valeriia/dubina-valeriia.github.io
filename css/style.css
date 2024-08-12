@@ -307,7 +307,9 @@ a{
    .sublist{
       min-width: 800px;
    }
-
+   .main__about__buttons{
+      margin-top: 20px;
+   }
 
 }
 @media (max-width:992px){
