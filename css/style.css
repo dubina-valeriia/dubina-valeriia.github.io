@@ -393,16 +393,7 @@ a{
    .container{
       display: none;
    }
-   .sublist.active{
-      position: relative;
-      color: #666666;
-      max-width: 300px;
-   }
-   .sublist{
-      position: absolute;
-      color: transparent;
-      width: 1px;
-   }
+
    .header__icons{
       display: flex;
       justify-content: space-around;
