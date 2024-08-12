@@ -493,7 +493,9 @@ a{
    .main__questions__list{
       margin: 0;
    }
-
+   .sublist{
+      max-width: 270px;
+   }
 
 }
 @media (max-width:320px){
